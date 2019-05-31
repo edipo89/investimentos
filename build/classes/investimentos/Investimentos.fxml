@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="pane_login" prefHeight="417.0" prefWidth="224.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="investimentos.InvestimentosController">
+   <children>
+      <Button fx:id="btn_login" layoutX="41.0" layoutY="206.0" mnemonicParsing="false" onAction="#login" prefHeight="49.0" prefWidth="150.0" text="Entrar" />
+      <Button fx:id="btn_novoUsuario" layoutX="42.0" layoutY="271.0" mnemonicParsing="false" onAction="#novoUsuario" prefHeight="49.0" prefWidth="150.0" text="Cadastrar novo usuário" />
+      <Button fx:id="btn_sair" layoutX="42.0" layoutY="342.0" mnemonicParsing="false" onAction="#sair" prefHeight="49.0" prefWidth="150.0" text="Sair" />
+      <ImageView fx:id="IFQUiz" fitHeight="162.0" fitWidth="227.0" layoutX="8.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images.png" />
+         </image></ImageView>
+      <Text layoutX="75.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Investimentos" />
+   </children>
+</AnchorPane>
